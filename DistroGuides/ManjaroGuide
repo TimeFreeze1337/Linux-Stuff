@@ -1,0 +1,22 @@
+Setp 1: Download Manjaro with your prefered DE [Desktop Enviroment] i recommend XFCE : https://manjaro.org/downloads/official/xfce/
+
+Step 2: Download Rufus which creates a bootable USB drive: https://rufus.ie
+
+Step 3: Make a bootable USB drive with Manjaro and boot from the USB. 
+
+Step 4: Go through the Installer.
+
+Step 5: Now that you probably have installed Manjaro here some quick tips: The Terminal is your best Friend go and learn it as quick as possible. The GUI is great too but especially for Linux you want to learn the Terminal way. For Arch Based Distros the package command is pacman. So for update you want to do: sudo pacman -Syu .To install packages: sudo pacman -S [package] sudo is to grant admin priviligaes. Or you could also go and log in as root with su , but thats not recommended. To edit files,configs and so on you probably want to use nano. So for example nano [file name] . If i want to configure my bspwmrc file i would do this: vim .config/bspwm/bspwmrc. Note: vim is like nano a text editor but vim is a bit more complicated so  better to use nano as a beginner. 
+
+Step 6: Assuming you want to play games you want to get Steam and other things. So you can either go in the GUI Store and find it there. Or over the terminal: sudo pacman -S steam . Thats it! On Linux Steam there is Proton which makes many non-linux games playable on Linux. Their is a good resource which works and which may need some tweaks on: www.protondb.com  
+
+Step 7: For GOG Games their are either Native ones or also Windows only games. For Windows only games their are really good Wrappers which do everything for you so you just need to start it afterwards. https://www.gog.com/forum/general/adamhms_linux_wine_wrappers_news_faq_discussion/post1 . If their is the Wrapper for your desired Game then Great! Otherwise you can download a generic wrapper at https://www.dropbox.com/s/lv3iend75gktmws/gogwrap.tar.xz?dl=0 Just put everything in the same folder with the desired Game Installer and run the gogwrap.sh file with pointing it to the installer so gogwrap.sh [installer] .
+
+Step 8: For Graphic Drivers just look at the Guide from Lutris: https://github.com/lutris/lutris/wiki/Installing-drivers#arch--manjaro--other-arch-derivatives
+
+Step 9: For Wine [Wine is not an Emulator] which you should have just in case follow the Guide from Lutris: https://github.com/lutris/lutris/wiki/Wine-Dependencies#archantergosmanjaroother-arch-derivatives
+
+Step 10: Thats probably it. For other things and question there are Youtube Videos or Threads and many other ways. Or just ask me if you have contact to me.  
+
+
+

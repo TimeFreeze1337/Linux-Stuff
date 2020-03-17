@@ -1,1 +1,22 @@
+Setp 1: Download Ubuntu or a prefered Flavor i recommend: Xubuntu in LTS [Long Term Support] : https://xubuntu.org/downlad#lts
+
+Step 2: Download Rufus which creates a bootable USB drive: https://rufus.ie
+
+Step 3: Make a bootable USB drive with your preffered Ubuntu Edition and boot from the USB 
+
+Step 4: Go through the Installer at some point it will ask if you want to install it alongside your other Installed OS for example Windows or Debian and so on. Either do it if you want Dual Boot or erase it completly and just install Ubuntu or do something else and do it yourself if you dont trust the Automatical Setup.
+
+Step 5: Now that you probably have installed Ubuntu here some quick tips: The Terminal is your best Friend go and learn it as quick as possible. The GUI is great too but especially for Linux you want to learn the Terminal way. For Debian/Ubuntu Based Distros the package command is apt and there are also .deb files which are kinda like .exe files on Windows. So for update you want to do: sudo apt-get update or sudo apt update and for upgrading them sudo apt upgrade. To install packages: sudo apt install [package] sudo is to grant admin priviligaes. Or you could also go and log in as root with su , but thats not recommended. To edit files,configs and so on you probably want to use nano. So for example nano [file name] . If i want to configure my bspwmrc file i would do this: vim .config/bspwm/bspwmrc. Note: vim is like nano a text editor but vim is a bit more complicated so  better to use nano as a beginner. 
+
+Step 6: Assuming you want to play games you want to get Steam and other things. So you can either go in the GUI Store and find it there. Or over the terminal or how i would do it: Just go on the Steam page and download the .deb file and execute it. Note: You may need to make it executable to do it: chmod +x [file] Or rightclick properties and Allow to run as executable. Thats it! On Linux Steam there is Proton which makes many non-linux games playable on Linux. Their is a good resource which works and which may need some tweaks on: www.protondb.com  
+
+Step 7: For GOG Games their are either Native ones or also Windows only games. For Windows only games their are really good Wrappers which do everything for you so you just need to start it afterwards. https://www.gog.com/forum/general/adamhms_linux_wine_wrappers_news_faq_discussion/post1 . If their is the Wrapper for your desired Game then Great! Otherwise you can download a generic wrapper at https://www.dropbox.com/s/lv3iend75gktmws/gogwrap.tar.xz?dl=0 Just put everything in the same folder with the desired Game Installer and run the gogwrap.sh file with pointing it to the installer so gogwrap.sh [installer] .
+
+Step 8: For Graphic Drivers just look at the Guide from & Lutris Valve: https://github.com/ValveSoftware/Proton/wiki/Requirements and Lutris: https://github.com/lutris/lutris/wiki/Installing-drivers
+
+Step 9: For Wine [Wine is not an Emulator] which you should have just in case follow the Guide from Lutris: https://github.com/lutris/lutris/wiki/Wine-Dependencies#ubuntulinux-mintubuntu-derivatives
+
+Step 10: Thats probably it. For other things and question there are Youtube Videos or Threads and many other ways. Or just ask me if you have contact to me. 
+Sorry if this Guide is messy i dont use Ubuntu since i personally hate it with all i have. So take this guide with caution since it may or may not be correct. 
+
 
